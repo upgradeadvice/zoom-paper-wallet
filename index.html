@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zoom Paper Wallet Generator</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="bitcore.min.js"></script>
+  <script src="qrcode.min.js"></script>
+</head>
+<body>
+  <section id="content">
+    <div class="messages">
+        <div class="wallet">
+          <canvas class="left addressQR" id="addressQR"></canvas>
+          <div class="mono address" id="address"></div>
+          <canvas class="left prvkeyQR" id="prvkeyQR"></canvas>
+          <div class="mono prvkey" id="prvkey"></div>
+        </div>
+    </div>
+  </section>
+</body>
+<script src="generate.js"></script>
+</html>
